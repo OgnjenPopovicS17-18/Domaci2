@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+	<title>Warrior Gym</title>
+
+	 <script>
+      $( document ).ready(function() {
+
+	$( ".cross" ).hide();
+	$( "nav" ).hide();
+	$( ".hamburger" ).click(function() {
+	$( "nav" ).slideToggle( "slow", function() {
+	$( ".hamburger" ).hide();
+	$( ".cross" ).show();
+	});
+	});
+
+	$( ".cross" ).click(function() {
+	$( "nav" ).slideToggle( "slow", function() {
+	$( ".cross" ).hide();
+	$( ".hamburger" ).show();
+	});
+	});
+
+	});
+    </script>
+
+
+</head>
+<body>
+	<!-- Header -->
+	<div class="showcase">
+		<div class="welcome-image">
+			<img src="images/welcome.jpg">
+		</div>
+		<div class="content">
+			<img src="images/logo.png" id="logo">
+			<h1>Odustajanje nije opcija <br> uzmite stvar u svoje ruke </h1>
+		</div>	
+	</div>
+	<!-- Navigation -->
+	<button class="hamburger" style="background-color: orange">&#9776;</button>
+  	<button class="cross">&#735;</button>
+	<nav >
+		<ul>
+			<li> <a href="#">Početna</a></li>
+			<li> <a href="#" style="padding-bottom: 3px;">Teretana <ion-icon name="arrow-dropdown"></ion-icon></a>
+				<ul class="dropdown">
+					<li>Biceps</li>
+					<li>Triceps</li>
+					<li>Grudi</li>
+					<li>Noge</li>
+					<li>Stomak</li>
+				</ul>
+			</li>
+			<li> <a href="#">Kardio</a></li>
+			<li> <a href="#">Ishrana i Suplementi</a></li>
+			<li> <a href="#">Programi</a></li>
+			<li> <a href="#">Treneri</a></li>
+			<li> <a href="#">Teretane</a></li>
+			<li> <a href="#">Kontakt</a></li>
+		</ul>
+	</nav>
+	<!-- Main Content -->
+	<section id="main">
+		<div class="main-content">
+			<div class="prl-img-1">
+				
+			</div>
+			<div class="main-text">
+				<p> Gym & Fitnes Korporativni fitnes program je savršen način kako možete smanjiti troškove zdravstvene zaštite, povećati produktivnost, i poboljsati kvalitet života vaših radnika.
+				Klub je opremljen vrhunskom “Technogym Selection” opremom i prostire se na vise od hiljadu kvadrata. U okviru gym-a na raspolaganju su 3 sale: Fitnes sala, Group Class sala i Cross Fit sala.</p>
+			</div>
+			<div class="prl-img-2">
+				
+			</div>
+			<div class="main-text ">
+				<p>Koncepcija samog rada fitnesa, kao i oprema je ostala veoma slična kao u X SPORT GYM-u što znači ostali smo verni najboljem Svetskom proizvođaču opreme za teretane LIFE FITNESS-u s’tim što što smo povećali broj sprava a neke koje su najviše koriste i duplirali poput klupe za ravni benč pres, stalka za čučanj... Broj kardio trenažera je takođe povećan (15 kardio trenažera od kojih su 6 Life Fitness traka za trčanje)  i zazuzima kompletan gornji deo Fitnes centra (150 kvadratnih metara) jer osluškujući klijente smo zaključili da je to ono što najviše privlači nove klijente i daje onaj kvalitet samom centru.</p>
+			</div>
+			<div class="prl-img-3">
+				
+			</div>
+			<div class="main-text">
+				<p>U okviru našeg fitnes centra postoji i prodavnica sportskih preparata i dodataka ishrani tj novo prodajno mesto X SPORT SHOP-a, takođe imamo i protein bar gde možete popiti neki suplement za podizanje inteziteta treninga ili ubrzati i pojačati sagorevanje masnih naslaga i isto tako nahraniti vaše mišiće nakon intezivnog treninga. Tu smo da Vam pružimo prijatan i prijateljski ambijent u kojem možete vežbati u miru pod budnim okom naših instruktora, družiti se, jednostavno učiniti Vaš život kvalitetnijim.Za sve naše članove obezbeđen je FREE WIRELESS INTERNET u sali.</p>
+			</div>
+		</div>
+	</section>
+	
+	<a href="#forma" id="btn">Učlanite se</a>
+
+	<!-- Section with Products -->
+	<section id="products">
+		<div class="product">
+			<h3>Morning Mix</h3>
+			<sup>_____________________</sup>
+			<p>Jutarnji trening za podizanje raspoloženja i ubrzanje metabolizma. Primenjuju se kardio elementi srednjeg intenziteta i vežbe oblikovanja sa raznim sportskim rekvizitima i bez. Endorfin je zagarantovan!</p>
+			<br>
+			<p> <ion-icon name="time"></ion-icon> Trajanje 55min. Cena: 1500rsd/mesec</p>
+		</div>
+		<div class="product">
+			<h3>Morning Flow</h3>
+			<sup>_____________________</sup>
+			<p>Morning flow predstavlja grupni program koji je usmeren na razvoj kontrole tela, a isto tako i na razvoj snage, fleksibilnosti, ravnoteze i koordinacije. Ovaj program angazuje celu muskulaturu tela sa fokusom na misice core-a (trbuh, donja ledja, gluteus). Izvodi se uz laganu muziku, uz koju se vezbe nizu jedna za drugom, od laksih ka tezim varijacijama, bez velikih pauza, tako da, iako necete skociti, dobro cete se preznojiti. Ovaj program ce vam pomoci da zapocnete dan svezi, odmorni i u dobroj formi, povecace vam koncentraciju, smanjiti stres pa samim tim ce vas dobro pripremiti za pocetak jos jednog radnog dana.</p>
+			<br>
+			<br>
+			<p> <ion-icon name="time"></ion-icon> Trajanje 55min. Cena: 1700rsd/mesec</p>
+		</div>
+		<div class="product">
+			<h3>Hit</h3>
+			<sup>_____________________</sup>
+			<p>Sastoji se od niza kratkotrajnih intezivnih kardio serija sa aktivnom pauzom. Ovo je aerobni trening sa elementima anaerobnog. Prednosti: ubrzavanje metabolizma u mirovanju u naredna 24 časa, povećanje maksimalne potrošnje kiseonika, poboljšanje tolerancije na glukozu tako što smanjuje otpornost insulina.</p>
+			<br>
+			<br>
+			<p> <ion-icon name="time"></ion-icon> Trajanje 55min. Cena: 1900rsd/mesec</p>
+		</div>
+		<div class="product">
+			<h3>Interval</h3>
+			<sup>_____________________</sup>
+			<p>Intervalni trening je tako dizajniran uključuje serije niskog do visokog intenziteta vežbi sa takozvanom igrom intervalima rada i odmora. Visoko intezivni periodi su kratki ili veoma bliski anaerobnim vežbama, period oporvka je vremenski mali. Varijacije inteziteta vežbanja uključuju kardiovaskularne vežbe, poboljšavajući aerobni kapacitet i naravno u isto vreme i anaerobni kapacitet vežbača.</p>
+			<br>
+			<br>
+			<p> <ion-icon name="time"></ion-icon> Trajanje 58min. Cena: 1600rsd/mesec</p>
+		</div>
+		<div class="product">
+			<h3>Yoga</h3>
+			<sup>_____________________</sup>
+			<p>Kretanje je prirodno i potrebno za zdravlje ljudi. Kroz dinamičan sled asana (joga položaja) koje povezujemo dahom kreiramo "flow" kojim se telom brzo zagreva. Od osnovne je važnosti da pokret prati dah, jer dah daje ritam vežbanju i aktivira energetske centre, stvarajući tako utisak da ceo čas teče. Očekujte kretanje, i građenje snage, a ne samo istezanje. Čas obuhvata pripremno zagrevanje, pranajamu (tehnike disanja), vežbanje stabilnosti i fleksibilnosti. </p>
+			<br>
+			<br>
+			<p> <ion-icon name="time"></ion-icon> Trajanje 55min. Cena: 2000rsd/mesec</p>
+		</div>
+		<div class="product">
+			<h3>Pilates</h3>
+			<sup>_____________________</sup>
+			<p>Nas pilates je dizajniran na kontroli pokreta, disanja i specijalnih vežbi koje vaše telo priprema za nove izazove. Sklad vežbi sa pravilnim disanjem je esencijalan za pravilno funkcionisanje vašeg tela.</p>
+			<br>
+			<br>
+			<p> <ion-icon name="time"></ion-icon> Trajanje 55min. Cena: 1300rsd/mesec</p>
+		</div>
+	</section>
+	<!-- Form Concept -->
+	<section id="forma">
+		<div id="form-wrap">
+			<form>
+				<label>Ime:</label>
+					<input type="text">
+
+				<label>Prezime:</label>
+					<input type="text">
+				
+				<label>Email:</label>
+					<input type="email" placeholder="Email">
+
+				<label>Šifru za karticu:</label>
+					<input type="password" placeholder="Password">
+				</label>
+				<label>Broj telefona:</label>
+					<input type="text">
+			
+				<label>Izaberite Trenera:</label>
+					<select>
+						<option>Miroljub Petrovic</option>
+						<option>Jana Gajic</option>
+						<option>Ostoja Tosic</option>
+					</select>
+			
+				<label>Rekreativac</label>
+					<input type="checkbox">
+				
+				<label>Takmicar</label>
+					<input type="checkbox">
+				
+				<label>Sugestije</label>
+					<textarea rows="4" cols="40"></textarea>
+					<button id="btn-2">Prijavi se</button>
+			</form>
+		</div>
+	</section>
+
+<footer>
+		<div>
+			<p>Ognjen <br> Popovic <br> S17/18</p>
+		</div>
+		<div>
+			<p class="teretana">Warriors Gym</p>
+		</div>
+		<div>
+			<p class="podaci">Ugrinovci, Beogradska 22 <br>opopovic1718s@raf.rs <br>555-333</p>
+		</div>	
+</footer>
+
+
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html>
